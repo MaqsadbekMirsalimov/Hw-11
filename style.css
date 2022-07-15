@@ -1,0 +1,53 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 10px;
+    background-color: rgba(162, 162, 185, 0.37);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.LOGO {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.LOGA {
+    text-decoration: none;
+    color: #000;
+}
+
+.LOGA:hover {
+    transition: .7s;
+    color: rgb(255, 255, 255);
+}
+
+.list {
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+.link:hover {
+    transition: 1s;
+    border: 5px solid rgb(173, 4, 4) ;
+    background-color: rgb(173, 4, 4);
+    color: rgb(255, 255, 255);
+}
